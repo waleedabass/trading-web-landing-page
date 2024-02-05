@@ -1,0 +1,76 @@
+/* Navbar.css */
+
+/* Style the background image */      
+.bg-img {
+        background-image: url("../public/space.jpeg");
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      
+      /* Style the navbar */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(71, 71, 71, 0.5); /* Semi-transparent black */
+      }
+      
+      /* Style the logo */
+      .logo {
+        height: 100px;
+        width: 180px;
+        background-image: url("../public/logo.png");
+      }
+      
+      /* Style the navigation links */
+      .navbar ul {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+      }
+      
+      .navbar ul li {
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+
+      }
+      .navbar ul li:hover{
+       color: rgb(150, 241, 253);
+      }
+      /* Style the button */
+      .navbar button {
+        padding: 10px 20px;
+        border: none;
+        background:transparent ; /* Semi-transparent black */
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin: 20px;
+      }
+      .navbar button:hover{
+        background-color:rgb(194, 94, 0) ;
+        border-radius: 8px;
+      }
+      @media only screen and (max-width: 600px) {
+        .navbar {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navbar ul {
+            flex-direction: row;
+        }
+    
+        .navbar ul li {
+            margin: 0 10px;
+        }
+    }
