@@ -2,7 +2,7 @@
 
 /* Style the background image */      
 .bg-img {
-        background-image: url("../public/space.jpeg");
+        background-image: url("/space.jpeg");
         background-size: cover;
         width: 100vw;
         height: 100vh;
@@ -25,7 +25,7 @@
       .logo {
         height: 100px;
         width: 180px;
-        background-image: url("../public/logo.png");
+        background-image: url("/logo.png");
       }
       
       /* Style the navigation links */

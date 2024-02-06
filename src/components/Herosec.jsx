@@ -28,7 +28,7 @@ function Herosec() {
           </p>
         </h1>
         <h2>Get widest range of<br />Markets, trades and Platforms.</h2>
-        <div className="images"><img src="/Stock.png" alt="Analytics Image" /></div>
+        <div className="images"></div>
         <h3>{words[currentWordIndex]}</h3>
         <button>Create a free demo account</button>
       </main>

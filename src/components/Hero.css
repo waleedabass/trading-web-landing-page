@@ -46,7 +46,8 @@ h3 {
 }
 
 
-.images img{
+.images{
+  background-image: url("/Stock.png");
   height: 500px;
   width: 500px;
   background-size: cover;
