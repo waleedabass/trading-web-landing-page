@@ -15,7 +15,7 @@ body {
   text-align: left;
   z-index: 1;
   color: white;
-  margin-top: 25%;
+  margin-top: 20%;
   font-size: 30px;
 }
 
@@ -24,7 +24,7 @@ h2 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-button {
+.demo {
   padding: 10px 20px;
   border: none;
   background-color: rgb(65, 65, 182);
@@ -37,7 +37,7 @@ button {
   margin-top: 30px;
 }
 
-button:hover {
+.demo:hover {
   background-color: rgb(25, 25, 197);
 }
 

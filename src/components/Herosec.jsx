@@ -30,7 +30,7 @@ function Herosec() {
         <h2>Get widest range of<br />Markets, trades and Platforms.</h2>
         <div className="images"></div>
         <h3>{words[currentWordIndex]}</h3>
-        <button>Create a free demo account</button>
+        <button className="demo">Create a free demo account</button>
       </main>
     </div>
   );

@@ -1,19 +1,23 @@
-import "./Navbar.css"
+import "./Navbar.css";
 
-function Navbar() {
+function Navbar({ onButtonClick }) {
   return (
-    <div className="bg-img">
+    <>
       <div className="navbar">
         <div className="logo"></div>
         <ul>
           <li>Trade</li>
           <li>Markets</li>
           <li>Resources</li>
-          <li>Contact Us</li>
+          <li>
+          <button className="oo" onClick={onButtonClick}>
+      Contact Us
+    </button>
+          </li>
         </ul>
-        <button>Login/Sign-up</button>
+        <button className="lii">Login/Sign-up</button>
       </div>
-    </div>
+    </>
   );
 }
 

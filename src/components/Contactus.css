@@ -1,0 +1,120 @@
+.text {
+  margin-top: 5vw;
+  margin-left: 5vw;
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+section {
+  z-index: 1;
+  position: relative;
+}
+.text h1 {
+  font-size: 6vh;
+}
+.text h3 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2vw;
+  text-wrap: 1.5vw;
+}
+
+.msg {
+    margin-left: 59vw;
+    margin-top: -14vw;
+  }
+  
+  .msg form {
+    background-color: #6660605b;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .msg h2 {
+    margin-bottom: 10px;
+  }
+  
+  .msg input[type="text"],
+  .msg textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #58585842;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .msg textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .msg button {
+    background-color: #4caf50;
+    color: rgb(245, 245, 245);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 7vw;
+    font-size: 25px;
+  }
+  
+  .msg button:hover {
+    background-color: #046109;
+  }
+  
+  /* Optional: Center the form horizontally */
+  .msg form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for FAQ container */
+.faq {
+    max-width: 600px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #63626250;
+    border-radius: 8px;
+    margin-top:-14vw;
+  }
+  
+  /* Styling for FAQ headings */
+  .faq h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .faq h3 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  .faq h3 a:hover {
+    color: #00a3a8;
+  }
+  .others a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #00ff22; /* Link color */
+    border: 1px solid #ffffff; /* Border color */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    font-size: x-large;
+    
+  }
+  .others .g {
+    margin-left: 1vw;
+  }
+  .others a:hover {
+    background-color: #333; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  /* Optional: Center the links horizontally */
+  .others {
+   margin-top: 1vw;;
+   justify-content: space-between;
+  }
+  
